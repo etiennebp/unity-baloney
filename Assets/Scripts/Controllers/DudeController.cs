@@ -19,7 +19,8 @@ public class DudeController : MonoBehaviour {
 		animator.SetBool("running", running);
 
 		if (input.x != 0) {
-			renderer.transform.localScale = new Vector3(input.x, 1);
+			float scale = input.x < 0 ? -1 : 1;
+			renderer.transform.localScale = new Vector3(scale, 1);
 		}
 	}
 }
