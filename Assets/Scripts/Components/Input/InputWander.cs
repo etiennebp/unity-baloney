@@ -7,7 +7,7 @@ public class InputWander : MonoBehaviour {
 
 	private DudeController controller;
 
-	private float direction = Random.Range(0f, 360f);
+	private float direction;
 
 	private bool walk;
 	private float timeTillToggle;
