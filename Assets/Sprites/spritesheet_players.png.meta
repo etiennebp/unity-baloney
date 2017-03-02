@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 56197146bf11d4622b8978f05c1552eb
-timeCreated: 1487987893
+timeCreated: 1488250853
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,14 +15,14 @@ TextureImporter:
     21300016: spritesheet_players_8
     21300018: spritesheet_players_9
     21300020: player_air_up
-    21300022: spritesheet_players_11
+    21300022: green_run_1
     21300024: spritesheet_players_12
     21300026: spritesheet_players_13
     21300028: spritesheet_players_14
     21300030: spritesheet_players_15
     21300032: spritesheet_players_16
     21300034: player_stand
-    21300036: spritesheet_players_18
+    21300036: green_run_2
     21300038: spritesheet_players_19
     21300040: spritesheet_players_20
     21300042: spritesheet_players_21
@@ -43,7 +43,7 @@ TextureImporter:
     21300072: spritesheet_players_36
     21300074: spritesheet_players_37
     21300076: player_stare
-    21300078: spritesheet_players_39
+    21300078: green_stand
     21300080: spritesheet_players_40
     21300082: spritesheet_players_41
     21300084: spritesheet_players_42
@@ -269,15 +269,15 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_players_11
+      name: green_run_1
       rect:
         serializedVersion: 2
         x: 520
         y: 1536
         width: 112
         height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -360,15 +360,15 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_players_18
+      name: green_run_2
       rect:
         serializedVersion: 2
         x: 522
         y: 1280
         width: 108
         height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -633,15 +633,15 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_players_39
+      name: green_stand
       rect:
         serializedVersion: 2
         x: 523
         y: 512
         width: 107
         height: 147
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
